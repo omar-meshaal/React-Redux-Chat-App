@@ -8,6 +8,7 @@ WORKDIR /usr/app
 # where available (npm@5+)
 COPY package*.json ./
 COPY .babelrc ./
+COPY .env ./
 
 RUN npm install 
 # If you are building your code for production
