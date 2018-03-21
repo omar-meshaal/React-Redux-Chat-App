@@ -1,6 +1,5 @@
 **/node_modules/
 **/*.sw*
-.env
 npm-debug.log
 db/
 Procfile
