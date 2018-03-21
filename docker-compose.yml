@@ -1,17 +1,3 @@
-# version: '3'
-# services: 
-#   web:
-#     image: react-redux-chat-app
-#     build: ./
-#     ports: 
-#       -"3030:3000"
-#     volumes: 
-#       - .
-#     depends_on: "mongodb"
-#   mongodb: 
-#     image: "mongo"
-#     ports: 
-#       -"27017:27017"     
 version: '3'
 services:
   web:
